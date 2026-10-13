@@ -1,3 +1,4 @@
+% Fourier reconstruction and RLC harmonic filtering.
 % Circuit Theory coursework, Spring 2026, recovered from finalpart12.m.
 % Student-specific Fourier coefficients and RLC response study.
 % Fourier summation/plotting approach follows Jens Munk's UAA

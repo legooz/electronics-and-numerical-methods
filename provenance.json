@@ -5,28 +5,28 @@
       "path": "schmitt-trigger/schmitt_trigger_sweep.m",
       "original_filename": "lab2.m",
       "original_sha256": "8b03d248d8454439f60c316c05a48e761b09f5af18b5843fc728e9def137a072",
-      "published_sha256": "918edd80e36be392872eecb233deb4b51422a81c22668a4ec60de3ac9ffdc53f",
+      "published_sha256": "67da072b27452586d704819e324261f05d6d93ed1901ed1ebf1b58506bebc044",
       "changes": "Descriptive name and attribution header added. Equations preserved."
     },
     {
       "path": "bjt-amplifier/bias_design.m",
       "original_filename": "final_lab.m",
       "original_sha256": "0f1a8e379c44d0bb3a0faae01b545c530a2c9ec59986ad1fe697ded79caebade",
-      "published_sha256": "6ece08910932fe3e9711eb309d1c77850aec4e567355ecc071c2d87d2ad5e769",
+      "published_sha256": "4848c6d50effbe112283e5872b86dca20bfaf52dd16118a0c2beb06268f4d5ef",
       "changes": "Descriptive name and attribution header added. Equations preserved."
     },
     {
       "path": "bjt-amplifier/frequency_response.m",
       "original_filename": "final_lab_freq_tes.m",
       "original_sha256": "07e3a628297c16e50bf00d068bcfebabefff07b88df75351fa68dc4c5dc66b12",
-      "published_sha256": "93667708f91ff5ffee440f735328e716178da2a604c01033df0d210929362769",
+      "published_sha256": "00b0c708eabff061a0b71f746b04ee3ae0341f256b6935bba7515922d23f1401",
       "changes": "Descriptive name and attribution header added. Equations preserved."
     },
     {
       "path": "fourier-rlc/fourier_rlc_response.m",
       "original_filename": "finalpart12.m",
       "original_sha256": "1e4eb7a16d3294f9c84d53564d184ae9e1661f13df386c2986db66ad71aa2fa6",
-      "published_sha256": "e4f38f0babb76f4e716d4934612f977261933010ee53a7f4be11b99901c65347",
+      "published_sha256": "84d77a72fce185281b8c6f328d2edb54893abe30e8b6d01c6e1ecdf6ba14f0d1",
       "changes": "Descriptive name and attribution header added. Equations preserved."
     }
   ],

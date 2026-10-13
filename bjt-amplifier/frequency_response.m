@@ -1,3 +1,4 @@
+% Two-stage BJT amplifier: gain and input-resistance frequency sweeps.
 % EE A333L, Spring 2026. Final design by Lars Goozen and Destiny DeLara.
 % Assignment and lab instruction: Todd Petersen, UAA.
 % Recovered from final_lab_freq_tes.m. No transistor parasitic capacitances.

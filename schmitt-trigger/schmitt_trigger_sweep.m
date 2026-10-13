@@ -1,3 +1,4 @@
+% Schmitt-trigger switching-threshold and hysteresis sweeps.
 % EE A333L, Spring 2026. Lab work by Lars Goozen and Destiny DeLara.
 % Threshold equations and circuit assignment: Todd Petersen, UAA.
 % Recovered from lab2.m; model body retained, sampling comment corrected.
@@ -25,7 +26,7 @@ VinL_non = (1 + a).*Vref - a.*VoutH;
 dVin_non   = VinH_non - VinL_non;          % = a*VoutH = 5a, linear in a
 Vinave_non = 0.5*(VinH_non + VinL_non);
 
-%% Plot 1: ΔVin vs a (assignment-style: log x-axis)
+%% Hysteresis width versus resistor ratio (logarithmic x-axis)
 figure;
 semilogx(a, dVin_inv, 'LineWidth', 2); hold on;
 semilogx(a, dVin_non, 'LineWidth', 2);
@@ -35,7 +36,7 @@ ylabel('\DeltaV_{in} = V_{inH} - V_{inL} (V)');
 legend('Inverting ST','Non-inverting ST','Location','best');
 title('\DeltaV_{in} vs a');
 
-%% Plot 2: Vin,ave vs a (assignment-style: log x-axis)
+%% Switching midpoint versus resistor ratio (logarithmic x-axis)
 figure;
 semilogx(a, Vinave_inv, 'LineWidth', 2); hold on;
 semilogx(a, Vinave_non, 'LineWidth', 2);
