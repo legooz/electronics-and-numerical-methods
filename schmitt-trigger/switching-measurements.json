@@ -1,5 +1,6 @@
 {
-  "source": "Goozen and DeLara, Comparators and Schmitt Triggers report, 2026-02-13, Table 2",
+  "source": "Comparators and Schmitt Triggers report, 2026-02-13, Table 2",
+  "attribution": "../NOTICE.md",
   "data_kind": "historical reported bench readings",
   "rows": [
     {

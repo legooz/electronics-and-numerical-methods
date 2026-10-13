@@ -23,7 +23,7 @@ The scripts require base MATLAB. They were executed with MATLAB R2025b during po
 
 ## Attribution
 
-Electronics lab reports credit **Lars Goozen and Destiny DeLara**. The KCL/KVL lab credits **Lars Goozen and Aaron Richard**. Circuit assignments and threshold equations came from the courses. The Fourier study follows Jens Munk's teaching example and supplies the recovered coursework coefficients and filter response. See [NOTICE.md](NOTICE.md) and [provenance.json](provenance.json).
+Circuit requirements and threshold equations came from the courses. The Fourier study follows the EE A353 `Fseries_ex2.m` teaching example, with recovered coursework coefficients and an added filter response. Collaborator credits and source context are consolidated through [NOTICE.md](NOTICE.md); [provenance.json](provenance.json) records the source files.
 
 Original worksheets, instructor solutions, assessment PDFs, and duplicate drafts are retained in the personal recovery archive rather than redistributed here. Public notes were newly written from the recovered project evidence; measurement values are historical, not newly collected.
 

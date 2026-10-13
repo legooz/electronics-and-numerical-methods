@@ -1,6 +1,6 @@
 # Two-stage BJT amplifier
 
-**Lars Goozen and Destiny DeLara — EE A333L, Spring 2026.** The final lab combined a common-emitter gain stage with an emitter-follower output stage. The design was explored in MATLAB, simulated in PSPICE, and assembled with two 2N3904 transistors.
+**EE A333L, Spring 2026.** The final lab combined a common-emitter gain stage with an emitter-follower output stage. The design was explored in MATLAB, simulated in PSPICE, and assembled with two 2N3904 transistors.
 
 The retained models use a 12 V supply, a 180 kΩ/22 kΩ bias divider, a 10 kΩ collector resistor, a 1 kΩ first-stage emitter resistor, and a 1.2 kΩ second-stage emitter resistor. The frequency model adds 1 µF input, bypass, and output capacitors, a 50 Ω source, and a 10 kΩ load.
 
@@ -18,4 +18,4 @@ Bias calculations neglect base-current loading and approximate collector current
 
 The report's output-voltage table and stated input amplitude do not directly reconcile with its listed gain under one peak-to-peak convention. Output swing is therefore omitted from this public comparison pending clarification. No claim is made that the model independently verifies every design requirement. The original PSPICE project/netlist was not recovered.
 
-Source: team final amplifier-design report, April 24, 2026, and recovered MATLAB files `final_lab.m` / `final_lab_freq_tes.m`. Lab assignment: Todd Petersen, UAA.
+Source: team final amplifier-design report, April 24, 2026, and recovered MATLAB files `final_lab.m` / `final_lab_freq_tes.m`. See [collaborator attribution and course context](../NOTICE.md).

@@ -5,29 +5,29 @@
       "path": "schmitt-trigger/schmitt_trigger_sweep.m",
       "original_filename": "lab2.m",
       "original_sha256": "8b03d248d8454439f60c316c05a48e761b09f5af18b5843fc728e9def137a072",
-      "published_sha256": "67da072b27452586d704819e324261f05d6d93ed1901ed1ebf1b58506bebc044",
-      "changes": "Descriptive name and attribution header added. Equations preserved."
+      "published_sha256": "bad9a2f3676a998854a4e42aefedd37229c363f3d73253538a16d4d795d174f3",
+      "changes": "Descriptive name and attribution header added. Equations preserved. Repeated curated credits now point to NOTICE.md and the central attribution record; executable code unchanged."
     },
     {
       "path": "bjt-amplifier/bias_design.m",
       "original_filename": "final_lab.m",
       "original_sha256": "0f1a8e379c44d0bb3a0faae01b545c530a2c9ec59986ad1fe697ded79caebade",
-      "published_sha256": "4848c6d50effbe112283e5872b86dca20bfaf52dd16118a0c2beb06268f4d5ef",
-      "changes": "Descriptive name and attribution header added. Equations preserved."
+      "published_sha256": "64f04479523877b3bdea67a3990e234efe492252f408ba104682401adfdaca6c",
+      "changes": "Descriptive name and attribution header added. Equations preserved. Repeated curated credits now point to NOTICE.md and the central attribution record; executable code unchanged."
     },
     {
       "path": "bjt-amplifier/frequency_response.m",
       "original_filename": "final_lab_freq_tes.m",
       "original_sha256": "07e3a628297c16e50bf00d068bcfebabefff07b88df75351fa68dc4c5dc66b12",
-      "published_sha256": "00b0c708eabff061a0b71f746b04ee3ae0341f256b6935bba7515922d23f1401",
-      "changes": "Descriptive name and attribution header added. Equations preserved."
+      "published_sha256": "7c09aa2a7649332ea43671445e3b33bf6b12f3b4c6724fa6927d123285662ea1",
+      "changes": "Descriptive name and attribution header added. Equations preserved. Repeated curated credits now point to NOTICE.md and the central attribution record; executable code unchanged."
     },
     {
       "path": "fourier-rlc/fourier_rlc_response.m",
       "original_filename": "finalpart12.m",
       "original_sha256": "1e4eb7a16d3294f9c84d53564d184ae9e1661f13df386c2986db66ad71aa2fa6",
-      "published_sha256": "84d77a72fce185281b8c6f328d2edb54893abe30e8b6d01c6e1ecdf6ba14f0d1",
-      "changes": "Descriptive name and attribution header added. Equations preserved."
+      "published_sha256": "6512af38d2fa567d22211cb79595986badbce55f87f375e12dfd8eebc2fca313",
+      "changes": "Descriptive name and attribution header added. Equations preserved. Repeated curated credits now point to NOTICE.md and the central attribution record; executable code unchanged."
     }
   ],
   "lab_results_source": "Team reports retained in the personal recovery archive; original artifact names are documented in each study.",

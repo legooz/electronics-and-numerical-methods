@@ -8,6 +8,6 @@ The coefficient expression is preserved in `fourier_rlc_response.m`. The transfe
 
 ## Provenance and scope
 
-Recovered from the MATLAB source recorded in [provenance.json](../provenance.json). The approach follows Jens Munk's UAA `Fseries_ex2.m` teaching example, with a different coefficient expression and an added RLC response study. The exact assessment/submission context was not recovered. This is presented as course-derived numerical work, not an independently invented method.
+Recovered from the MATLAB source recorded in [provenance.json](../provenance.json). The approach follows the EE A353 `Fseries_ex2.m` teaching example, with a different coefficient expression and an added RLC response study. The exact assessment/submission context was not recovered. This is course-derived numerical work; see [attribution and course context](../NOTICE.md).
 
 The result is a truncated ideal steady-state response. It does not model circuit start-up, parasitics, component tolerances, or measured hardware. The included plot was regenerated from the recovered source; duplicate waveform drafts and the instructor's original example are excluded.

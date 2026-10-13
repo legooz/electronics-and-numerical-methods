@@ -1,6 +1,6 @@
 % Two-stage BJT amplifier: DC bias and small-signal estimates.
-% EE A333L, Spring 2026. Final design by Lars Goozen and Destiny DeLara.
-% Assignment and lab instruction: Todd Petersen, UAA.
+% EE A333L, Spring 2026; recovered amplifier-design calculations.
+% Lab-report collaborator attribution: ../NOTICE.md.
 % Recovered from final_lab.m; approximate unloaded bias/small-signal model.
 
 clear; clc;

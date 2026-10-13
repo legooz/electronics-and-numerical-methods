@@ -1,6 +1,6 @@
 % Schmitt-trigger switching-threshold and hysteresis sweeps.
-% EE A333L, Spring 2026. Lab work by Lars Goozen and Destiny DeLara.
-% Threshold equations and circuit assignment: Todd Petersen, UAA.
+% EE A333L, Spring 2026; course-provided threshold equations.
+% Lab-report collaborator attribution: ../NOTICE.md.
 % Recovered from lab2.m; model body retained, sampling comment corrected.
 
 clear; clc; close all;

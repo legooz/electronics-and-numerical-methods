@@ -1,8 +1,8 @@
 % Fourier reconstruction and RLC harmonic filtering.
 % Circuit Theory coursework, Spring 2026, recovered from finalpart12.m.
 % Student-specific Fourier coefficients and RLC response study.
-% Fourier summation/plotting approach follows Jens Munk's UAA
-% Fseries_ex2.m teaching example. This is a course-derived study.
+% Fourier summation/plotting follows the EE A353 Fseries_ex2.m example.
+% Course-derived model; attribution and source context: ../NOTICE.md.
 % Exact submission/assessment context was not recovered.
 
 clear; clc; close all;

@@ -1,6 +1,6 @@
 # Schmitt-trigger threshold sweeps
 
-**Lars Goozen and Destiny DeLara — EE A333L, Spring 2026.** This LM311 comparator lab compared inverting and non-inverting Schmitt triggers, using positive feedback to produce distinct rising and falling switching thresholds.
+**EE A333L, Spring 2026.** This LM311 comparator lab compared inverting and non-inverting Schmitt triggers, using positive feedback to produce distinct rising and falling switching thresholds.
 
 `schmitt_trigger_sweep.m` evaluates the course threshold equations across a resistor-ratio sweep from 0.1 to 10. It also varies the non-inverting reference voltage at a fixed ratio of one. The recovered script uses 20 samples across the two decades.
 
@@ -12,4 +12,4 @@ The [measurement table](switching-measurements.json) comes from the February 13,
 
 This is an ideal threshold model. Values outside the comparator's supply/input range are mathematical extrapolations and do not establish practical operation. Device limits, saturation, noise, and propagation delay need a circuit model or bench verification.
 
-Course context is identified from the EE A333L Blackboard submission; the recovered report's cover retained an EE203L label. The code and notes credit the team and Todd Petersen's comparator/Schmitt-trigger lab instruction. Original worksheets and datasheet diagrams are not redistributed.
+Course context is identified from the EE A333L Blackboard submission; the recovered report's cover retained an EE203L label. See [collaborator attribution and course context](../NOTICE.md). Original worksheets and datasheet diagrams are not redistributed.
