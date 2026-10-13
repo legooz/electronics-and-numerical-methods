@@ -7,10 +7,17 @@ oldVisibility = get(groot, 'defaultFigureVisible');
 restoreVisibility = onCleanup(@() set(groot, 'defaultFigureVisible', oldVisibility));
 set(groot, 'defaultFigureVisible', 'off');
 jobs = {
-    'bjt-amplifier/bias_design.m', 'bjt-amplifier';
-    'bjt-amplifier/frequency_response.m', 'bjt-amplifier';
-    'schmitt-trigger/schmitt_trigger_sweep.m', 'schmitt-trigger';
-    'fourier-rlc/fourier_rlc_response.m', 'fourier-rlc'
+    'bjt-amplifier/bias_design.m', 'bjt-amplifier', {};
+    'bjt-amplifier/frequency_response.m', 'bjt-amplifier', ...
+        {'voltage-gain-vs-frequency.png', 'input-resistance-vs-frequency.png'};
+    'schmitt-trigger/schmitt_trigger_sweep.m', 'schmitt-trigger', ...
+        {'hysteresis-width-vs-resistor-ratio.png', ...
+         'switching-midpoint-vs-resistor-ratio.png', ...
+         'noninverting-hysteresis-linearity.png', ...
+         'hysteresis-width-vs-reference-voltage.png', ...
+         'switching-midpoint-vs-reference-voltage.png'};
+    'fourier-rlc/fourier_rlc_response.m', 'fourier-rlc', ...
+        {'reconstructed-waveform.png', 'filtered-waveforms-by-quality-factor.png'}
 };
 results = struct('matlab_version', version, 'models', struct());
 for k = 1:size(jobs, 1)
@@ -19,13 +26,19 @@ for k = 1:size(jobs, 1)
     resultDir = fullfile(root, jobs{k,2}, 'results');
     if ~isfolder(resultDir), mkdir(resultDir); end
     figs = findall(groot, 'Type', 'figure');
+    if ~isempty(figs)
+        [~, figureOrder] = sort([figs.Number]);
+        figs = figs(figureOrder);
+    end
+    figureNames = jobs{k,3};
+    assert(numel(figs) == numel(figureNames), 'Unexpected figure count for %s', jobs{k,1});
     for j = 1:numel(figs)
         f = figs(j);
         set(f, 'Color', 'w', 'Units', 'pixels', 'Position', [100 100 960 640]);
         set(findall(f, 'Type', 'axes'), 'Color', 'w', 'XColor', 'k', 'YColor', 'k', 'ZColor', 'k', 'GridColor', [.2 .2 .2]);
         set(findall(f, 'Type', 'text'), 'Color', 'k');
         set(findall(f, 'Type', 'legend'), 'Color', 'w', 'TextColor', 'k', 'EdgeColor', [.3 .3 .3]);
-        exportgraphics(f, fullfile(resultDir, sprintf('figure-%d.png', f.Number)), 'Resolution', 160, 'BackgroundColor', 'white');
+        exportgraphics(f, fullfile(resultDir, figureNames{j}), 'Resolution', 160, 'BackgroundColor', 'white');
     end
     if k == 1
         results.models.bjt_bias = evalin('base', ...

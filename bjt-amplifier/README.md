@@ -10,7 +10,7 @@ The retained models use a 12 V supply, a 180 kΩ/22 kΩ bias divider, a 10 kΩ c
 
 The report records a measured gain of 45.7 dB, input resistance of 3.98 kΩ, and output resistance of 95.5 Ω. The recovered bias calculation reports about 47.32 dB, 3.516 kΩ, and 96.5 Ω. The model helps explain component choices; it does not replace transistor-level simulation.
 
-![Calculated frequency response](results/figure-1.png)
+![Calculated voltage gain versus frequency](results/voltage-gain-vs-frequency.png)
 
 ## Model limits
 
