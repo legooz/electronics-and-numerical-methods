@@ -1,0 +1,62 @@
+{
+  "source": "Goozen and Richard, KCL/KVL lab report and workbook, 2025-09-15",
+  "data_kind": "historical reported measurements; relative differences recalculated for this data export",
+  "rows": [
+    {
+      "quantity": "V1",
+      "unit": "V",
+      "calculated": 4.98,
+      "measured": 5.0,
+      "absolute_relative_difference": 0.004016064
+    },
+    {
+      "quantity": "V2",
+      "unit": "V",
+      "calculated": 3.65,
+      "measured": 3.65,
+      "absolute_relative_difference": 0.0
+    },
+    {
+      "quantity": "V3",
+      "unit": "V",
+      "calculated": 1.35,
+      "measured": 1.35,
+      "absolute_relative_difference": 0.0
+    },
+    {
+      "quantity": "I1",
+      "unit": "mA",
+      "calculated": 2.41,
+      "measured": 2.44,
+      "absolute_relative_difference": 0.012448133
+    },
+    {
+      "quantity": "I2",
+      "unit": "mA",
+      "calculated": 1.35,
+      "measured": 1.36,
+      "absolute_relative_difference": 0.007407407
+    },
+    {
+      "quantity": "I3",
+      "unit": "mA",
+      "calculated": 1.06,
+      "measured": 1.04,
+      "absolute_relative_difference": 0.018867925
+    },
+    {
+      "quantity": "I2_replacement",
+      "unit": "mA",
+      "calculated": 1.35,
+      "measured": 1.41,
+      "absolute_relative_difference": 0.044444444
+    },
+    {
+      "quantity": "I3_replacement",
+      "unit": "mA",
+      "calculated": 1.06,
+      "measured": 1.04,
+      "absolute_relative_difference": 0.018867925
+    }
+  ]
+}

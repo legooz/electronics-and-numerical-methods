@@ -1,0 +1,30 @@
+{
+  "source": "Goozen and DeLara, final amplifier report, 2026-04-24, Table 1",
+  "data_kind": "historical reported lab results",
+  "rows": [
+    {
+      "quantity": "input_resistance",
+      "unit": "ohm",
+      "hand_calculated": 4070,
+      "matlab_reported": 3520,
+      "pspice_reported": 4330,
+      "measured_reported": 3980
+    },
+    {
+      "quantity": "output_resistance",
+      "unit": "ohm",
+      "hand_calculated": 95.7,
+      "matlab_reported": 96.5,
+      "pspice_reported": 46.76,
+      "measured_reported": 95.5
+    },
+    {
+      "quantity": "voltage_gain",
+      "unit": "dB",
+      "hand_calculated": 45.1,
+      "matlab_reported": 47.32,
+      "pspice_reported": 45.66,
+      "measured_reported": 45.7
+    }
+  ]
+}

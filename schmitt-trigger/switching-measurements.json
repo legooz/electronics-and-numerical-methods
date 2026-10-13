@@ -1,0 +1,22 @@
+{
+  "source": "Goozen and DeLara, Comparators and Schmitt Triggers report, 2026-02-13, Table 2",
+  "data_kind": "historical reported bench readings",
+  "rows": [
+    {
+      "configuration": "inverting",
+      "resistor_ratio": 1,
+      "input_low_V": 3.9,
+      "input_high_V": 7.85,
+      "output_low_V": 0.25,
+      "output_high_V": 11.925
+    },
+    {
+      "configuration": "non_inverting",
+      "resistor_ratio": 1,
+      "input_low_V": 0.075,
+      "input_high_V": 4.8,
+      "output_low_V": 0.15,
+      "output_high_V": 4.85
+    }
+  ]
+}
